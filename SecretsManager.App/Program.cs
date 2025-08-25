@@ -19,7 +19,7 @@ internal class Program
         try
         {
             Console.WriteLine($"Getting the secret at {DateTime.Now}");
-            
+
             var response = await client.GetSecretValueAsync(request, cts.Token);
 
             Console.WriteLine($"Secret retrieved: {response.SecretString} at {DateTime.Now}");

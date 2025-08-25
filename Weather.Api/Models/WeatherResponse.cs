@@ -9,7 +9,7 @@ public class WeatherResponse
 
     [JsonPropertyName("name")]
     public required string Name { get; init; }
-    
+
     [JsonPropertyName("weather")]
     public required List<WeatherDescription> WeatherDescription { get; init; }
 

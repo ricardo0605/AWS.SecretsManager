@@ -4,6 +4,8 @@
 \
 \
 \
+Note that instead of using the AWS library for reading the secrets, we'll be using Kralizek.Extensions.Configuration.AWSSecretsManager.
+\
 This is one of many projects to following allong a Dometrain course. 
 This course was fully sponsord by AWS, meaning you can enroll it for free and the course is yours to keep and complete.
 \
